@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Jump</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 60%;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+      .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .skills {
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        .skill-item {
+            background-color: #e0f7e9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://mail.google.com/mail/u/0?ui=2&ik=424121a365&attid=0.2&permmsgid=msg-f:1835165326527299040&th=1977d1242fc5fde0&view=fimg&fur=ip&permmsgid=msg-f:1835165326527299040&sz=s0-l75-ft&attbid=ANGjdJ-QEOQgOKzUKOrkyVymJCbC0KcFnLdksSbU_1bI_OdBJrEfxyd1uHVHjO8PB6pbyYgJXJgPAeT-w8wfvE9s2NetN9LWvC3y9G2_cd4aie6VlBun2NeqLMv0umY&disp=emb&realattid=ii_1977d11f34cb427e3752&zw" width="200">
+
+    <h1>ข้อมูลส่วนตัวของ Sang</h1>
+
+    <table>
+        <tr>
+            <th>ชื่อ</th>
+            <td>Petchrungsri</td>
+        </tr>
+        <tr>
+            <th>นามสกุล</th>
+            <td>Petchot</td>
+        </tr>
+        <tr>
+            <th>ระดับชั้น</th>
+            <td>ม.6/2</td>
+        </tr>
+        <tr>
+            <th>เลขที่</th>
+            <td>28</td>
+        </tr>
+    </table>
+
+    <div class="skills">
+        <h2>ความสามารถ (Skills)</h2>
+        <div class="skill-item">ขับรถได้</div>
+        <div class="skill-item">ใจเย็น อารมณ์ดี</div>
+        <div class="skill-item">ใช้โปรแกรม Microsoft Word, PowerPoint ได้ดี</div>
+        <div class="skill-item">ชอบวิชาสังคม</div>
+        <div class="skill-item">สามารถทำงานเป็นทีมและมีทักษะการสื่อสารที่ดี</div>
+    </div>
+</div>
+  <a href="https://www.skn.ac.th/">โรงเรียนสวนกุหลาบวิทยาลัย นนทบุรี
+</body>
+</html>
